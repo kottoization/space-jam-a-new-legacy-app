@@ -164,6 +164,7 @@ function movePlayer() {
             quarterAvePER = quarterPER / playersOnCourt;
             document.getElementById('currentPER').innerText = 'Current PER: '+ quarterAvePER.toPrecision(4);
             
+            
             // Move the player to the court
             document.getElementById('playersOnCourt').appendChild(this);
         }
